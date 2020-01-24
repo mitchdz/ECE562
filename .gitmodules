@@ -1,0 +1,3 @@
+[submodule "docs/SMES-middleware-architecture"]
+	path = docs/SMES-middleware-architecture
+	url = https://github.com/mitchdz/SMES-middleware-architecture.git
