@@ -6,6 +6,8 @@ if [[ "$*" == *--sudo* ]]; then
 	sudo apt install -y autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev gawk git build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev libusb-1.0-0-dev device-tree-compiler pkg-config libexpat-dev verilator
 fi
 
+rm -rf ~/riscv
+
 mkdir ~/riscv
 
 pushd ~/riscv
