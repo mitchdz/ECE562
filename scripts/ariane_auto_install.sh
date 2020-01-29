@@ -1,5 +1,7 @@
 #!/bin/bash
 
+start = $SECONDS
+
 #Install required libraries (requires sudo)
 
 if [[ "$*" == *--sudo* ]]; then
@@ -87,3 +89,7 @@ pushd ~/riscv
 		../ariane/work-ver/Variane_testharness $RISCV/riscv64-unknown-elf/bin/pk hello.elf
 	popd
 popd
+
+duration=$(( SECONDS - start ))
+
+echo "Time: $duration seconds"
