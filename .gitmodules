@@ -1,0 +1,6 @@
+[submodule "DRiVE/riscv"]
+	path = DRiVE/riscv
+	url = https://github.com/mitchdz/riscv
+[submodule "DRiVE/docs/ECE562_Proposal"]
+	path = DRiVE/docs/ECE562_Proposal
+	url = https://github.com/mitchdz/ECE562_Proposal.git
