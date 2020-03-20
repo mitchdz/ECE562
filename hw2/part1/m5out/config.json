@@ -312,7 +312,7 @@
                         "pid": 100, 
                         "kvmInSE": false, 
                         "cxx_class": "Process", 
-                        "executable": "/home/mitch/benchmarks/spec2006/libquantum/libquantum_base.armv71", 
+                        "executable": "/home/mitch/benchmarks/embedded/A2TIME01", 
                         "drivers": [], 
                         "system": "system", 
                         "gid": 100, 
@@ -329,14 +329,14 @@
                         "path": "system.cpu.workload", 
                         "name": "workload", 
                         "cmd": [
-                            "/home/mitch/benchmarks/spec2006/libquantum/libquantum_base.armv71", 
-                            "1397 8"
+                            "/home/mitch/benchmarks/embedded/A2TIME01", 
+                            "-autogo"
                         ], 
                         "errout": "cerr", 
                         "useArchPT": false, 
                         "egid": 100, 
                         "release": "5.1.0", 
-                        "output": "/home/mitch/benchmarks/spec2006/libquantum/libquantum_ref.out"
+                        "output": "/home/mitch/benchmarks/embedded/output/a2time01.out"
                     }
                 ], 
                 "name": "cpu", 
@@ -1347,7 +1347,7 @@
     "time_sync_enable": false, 
     "type": "Root", 
     "full_system": false
-}me_sync_enable": false, 
+}e": false, 
     "type": "Root", 
     "full_system": false
 }
