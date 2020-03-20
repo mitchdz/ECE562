@@ -1536,7 +1536,7 @@
                         "pid": 100, 
                         "kvmInSE": false, 
                         "cxx_class": "Process", 
-                        "executable": "/home/mitch/benchmarks/embedded/A2TIME01", 
+                        "executable": "/home/mitch/benchmarks/embedded/CACHEB01", 
                         "drivers": [], 
                         "system": "system", 
                         "gid": 100, 
@@ -1553,14 +1553,14 @@
                         "path": "system.cpu.workload", 
                         "name": "workload", 
                         "cmd": [
-                            "/home/mitch/benchmarks/embedded/A2TIME01", 
+                            "/home/mitch/benchmarks/embedded/CACHEB01", 
                             "-autogo"
                         ], 
                         "errout": "cerr", 
                         "useArchPT": false, 
                         "egid": 100, 
                         "release": "5.1.0", 
-                        "output": "/home/mitch/benchmarks/embedded/output/a2time01.out"
+                        "output": "/home/mitch/benchmarks/embedded/output/cacheb01.out"
                     }
                 ], 
                 "name": "cpu", 
