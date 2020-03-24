@@ -1088,7 +1088,7 @@
                     "type": "ArmTLB", 
                     "size": 64
                 }, 
-                "numROBEntries": 60, 
+                "numROBEntries": 80, 
                 "fetchQueueSize": 32, 
                 "iewToCommitDelay": 1, 
                 "smtNumFetchingThreads": 1, 

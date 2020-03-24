@@ -1,5 +1,5 @@
 #i="a2time01"
-ROB="8"
+ROB="60"
 
 declare -a arr=("a2time01" "cacheb01" "bitmnp01" "mcf" "libquantum")
 

@@ -1,4 +1,4 @@
-SIMS = ['mcf', 'libquantum', 'bitmnp01', 'a2time01']
+SIMS = ['mcf', 'libquantum', 'bitmnp01', 'a2time01', 'cacheb01']
 QUEUES = ['4', '8', '16', '32']
 
 for sim in SIMS:

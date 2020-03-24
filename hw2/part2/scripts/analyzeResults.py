@@ -19,7 +19,7 @@
 #part2_OoO_mcf_60_stats.txt
 #part2_OoO_mcf_80_stats.txt
 
-SIMS = ['mcf', 'libquantum', 'bitmnp01', 'a2time01']
+SIMS = ['mcf', 'libquantum', 'bitmnp01', 'a2time01', 'cacheb01']
 TIMES = ['20', '40', '60', '80']
 
 for sim in SIMS:
